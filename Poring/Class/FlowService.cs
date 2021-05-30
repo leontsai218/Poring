@@ -14,6 +14,7 @@ namespace Poring.Class
         public string GetResult()
         {
             return _service1.GetId().ToString();
+            //return _service2.GetId().ToString();
         }
     }
 
@@ -30,6 +31,7 @@ namespace Poring.Class
         {
             var sb = new StringBuilder();
             var id = _service1.GetId();
+            //var id = _service2.GetId();
             foreach (var c in id.ToString())
             {
                 sb.Insert(0, c);
