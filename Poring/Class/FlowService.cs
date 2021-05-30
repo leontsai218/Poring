@@ -27,7 +27,7 @@ namespace Poring.Class
             _service1 = service1;
         }
 
-        public string GetResult()
+        public string GetReversedResult()
         {
             var sb = new StringBuilder();
             var id = _service1.GetId();

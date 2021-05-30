@@ -31,7 +31,7 @@ namespace Poring
         public void other_flow_result_should_be_correct()
         {
             GivenId(9527);
-            _otherFlowService.GetResult().Should().Be("7259");
+            _otherFlowService.GetReversedResult().Should().Be("7259");
         }
 
         private void GivenId(int id)
